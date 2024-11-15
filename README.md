@@ -13,12 +13,12 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>io.sdks</groupId>
   <artifactId>sdks-java-sdk</artifactId>
-  <version>10.2.1</version>
+  <version>8.8.14</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://central.sonatype.com/artifact/io.sdks/sdks-java-sdk/10.2.1
+https://central.sonatype.com/artifact/io.sdks/sdks-java-sdk/8.8.14
 
 ## Test the SDK
 
@@ -32,14 +32,14 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
 | `environment` | `Environment` | The API environment. <br> **Default: `Environment.PRODUCTION`** |
-| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| `httpClientConfig` | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
 
 The API client can be initialized as follows:
 
@@ -53,20 +53,20 @@ ApimaticCalculatorClient client = new ApimaticCalculatorClient.Builder()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/utility-classes.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-string-response.md)
-* [HttpContext](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-body-request.md)
-* [HttpCallback Interface](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-callback-interface.md)
-* [Headers](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/headers.md)
-* [ApiException](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/api-exception.md)
-* [Configuration Interface](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/10.2.1/doc/http-client-configuration-builder.md)
+* [Utility Classes](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/utility-classes.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-string-response.md)
+* [HttpContext](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-body-request.md)
+* [HttpCallback Interface](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-callback-interface.md)
+* [Headers](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/headers.md)
+* [ApiException](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/api-exception.md)
+* [Configuration Interface](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/Syed-Subtain/sdks-java-java-sdk/tree/8.8.14/doc/http-client-configuration-builder.md)
 
